@@ -1,0 +1,97 @@
+
+button{
+    display: none;
+}
+#menu{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    header {
+      width: 100%;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    #first-part{
+        display: none;
+    }
+
+    #second-part{
+        display: none;
+    }
+    
+    span{
+        font-size: x-small;
+    }
+    button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: middle;
+    }
+   
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 150px;
+    height: 200px;
+    color: rgb(203, 25, 96);
+    
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+#menu-box li{
+    padding: 15px;
+    font-weight: 400;
+}
+
+#smiley-emoji{
+    font-size: larger;
+}
+#home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills-content .picture-div{
+    width: 80px; 
+    height: 70px;
+   
+    
+    
+}
+#skills-content .picture-div img{
+    width: 80px; 
+    height: 70px;   
+}
+
+#skills-content #trainings{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+#skills-content{
+    width: 100%;
+    margin-top: 12px;
+    padding-top: 30px;
+   
+}
+
+
+  }
