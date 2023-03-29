@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills&Training</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body class="bg-slate-50">
+
+
+<!--Header-->
+
+<header id="mySidebar" class="w-4/5 m-auto h-32 flex justify-between items-center">    
+  
+    <div id="first-part" class="text-sm flex justify-evenly w-1/3 text-gray-400 font-semibold">
+        <a href="home.html" target="_self" class="hover:text-pink-600">My Work</a>
+        <a href="skills.html" target="_self" class="hover:text-pink-600">Skills & Training</a>
+        <a href="contact.html" target="_self" class="hover:text-pink-600">Contact</a>
+    </div>
+
+    <h2 class="font-sans tracking-wide font-bold text-pink-600 text-xl"> ERMIRA BERISHA</h2>
+
+    <div id="second-part" class="text-sm flex justify-evenly w-1/3 text-gray-400 font-semibold">
+        <a href="https://github.com/ErmiraBerisha" target="_blank" class="hover:text-pink-600">Github</a>
+        <a href="https://www.linkedin.com/in/ermira-berisha-57ba80183/" target="_blank" class="hover:text-pink-600">LinkedIn</a>
+        <a href="https://www.facebook.com/profile.php?id=100077191301194" target="_blank" class="hover:text-pink-600">Facebook</a>
+    </div>
+
+     <!--Responsive Sidebar-->
+     <button
+     id="menu" onclick="toggleMenu()"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+       </svg> <span>Menu </span> </button>
+     <ul id="menu-box" style="display: none">
+     <li><a href="home.html">My Work</a></li>
+     <li><a href="skills.html">Skills & Training</a></li>
+     <li><a href="contact.html">Contact</a></li>
+</ul>
+
+</header>
+
+    <!--Main-->
+
+     <div  class="w-4/5 m-auto  text-center">
+       <h1 class="text-stone-800 text-center font-sans mt-2 font-bold tracking-wide text-4xl"> &#8212; About me:  <br> I'm a Web Developer / Digital Marketing Specialist interested in the <br> positions that combine these roles.</h1>
+       <p class="  mt-6 w-2/3 m-auto font-sans text-xl text-gray-500 font-semibold"> I aim to further develop professionally by attending courses that expand my skills and knowledge.
+         </p>
+         
+    <div id="skills-content" class="w-full m-auto flex justify-center mt-20">
+        <div class="picture-div w-50 h-64 bg-gray-300 rounded-t-md rounded-r-md">
+            <img class="relative top-10 right-8 w-50 rounded-t-md rounded-r-md h-64" src="images/21868313_1520963847970180_1626247139_o.jpg" alt="">
+        </div>
+        <div id="trainings" class="flex flex-col w-3/5 pl-8 text-justify">
+            <h2 class="mb-4 text-stone-600 font-bold">My Skills and Training</h2>
+            <p class="font-sans text-sm text-gray-500 font-semibold mb-2"> My skills include <span class="text-stone-600 font-bold">JavaScript, ReactJS, WordPress, PHP, MySQL, (S)CSS, TailwindCSS, HTML5, Marketing, Social Media Management, Design. </span> My soft skills include <span class="text-stone-600 font-bold">time management, problem-solving, communication, and critical thinking.</span>
+                I have completed a JavaScript Programming course from ICK, as well as a web-design course by Awesome Coding. I am also attending the Ultimate SEO, Digital Marketing course in Udemy. See certificate below. </p>
+            <div id="cvbutton" class="flex flex-row">
+                <a href="images/20220304_182011.jpg" target="_blank" class="bg-pink-600 p-1 px-2 text-white font-semibold rounded-md hover:bg-pink-500">View certificate</a>
+            </div>
+        
+            <h2 class="mb-4 text-stone-600 font-bold mt-8">Work Experience</h2>
+            <p class="font-sans text-sm text-gray-500 font-semibold"> Digital Marketing Specialist and Full-Stack Development Internship Program at StarLabs company. During this internship I worked on developing a Wordpress project from scratch using Tailwind to style it, followed courses, learnt about important programming concepts. I have also experience as content creator and Soft Skills Master Trainer at Kosovo Development Foundation - KCDF.</p>
+            <a href="images/ErmiraBerisha-ReferenceLetter.pdf" target="_blank" class="mt-2 w-32 bg-pink-600 p-1 px-2 text-white font-semibold rounded-md hover:bg-pink-500 ">View reference</a>
+        
+            </div>
+
+    </div>
+
+    <!--Testimonial-->
+    <div id="testimonial" class="w-96 m-auto mt-36 mb-6 text-stone-800 font-sans font-bold text-2xl"><h2>Testimonial</h2></div>
+    <div id="testimonial-content" class="w-96 m-auto p-3 px-4 text-gray-500 font-semibold rounded-md border-2 border-pink-600">
+        
+        Ermira has a great work ethic and is a talented developer. I have had the chance to see her work and I would totally reccommend her for any job!
+        
+    </div>
+    
+    <img id="testimonial-img" class="w-12 h-12 absolute right-1/2 mr-8" src="images/Screenshot_4.png" alt="">
+
+    <div id="testimonial-card" class="w-96 m-auto flex justify-end mt-6">
+       
+        <img class="w-12 h-12 rounded-full relative right-5" src="images/shejzapic.jpg" alt="">
+    
+        <div id="testimonial-last" class="w-66 flex flex-col text-left relative right-2 mb-16">
+            <h5 class="text-stone-600 font-bold"><a href="https://www.linkedin.com/in/shejza-berisha-514972a0/" target="_blank">Shejza Berisha</a></h5>
+            <p class="text-gray-500 font-semibold text-xs">React Developer at ThriveCoin</p>
+        </div>
+    
+    </div>
+
+
+
+
+ <!--Footer-->
+
+<footer class="my-14 h-40 flex flex-col w-full items-center justify-between font-sans text-sm text-gray-500 font-semibold">
+    <h2 class="font-bold text-xl text-stone-600">I can help</h2>
+        <p>Feel free to contact me!</p>
+        <p>ermiraberisha97@gmail.com</p>
+        <div class="flex flex-row">
+            <a href="https://www.linkedin.com/in/ermira-berisha-57ba80183/"><img src="images/linkedin.svg" alt=""></a>
+            <a href="https://github.com/ErmiraBerisha"><img src="images/github.svg" alt=""> </a>
+        </div>
+</footer> 
+
+<script src="main.js"></script>
+</body>
+</html>
